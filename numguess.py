@@ -2,6 +2,7 @@ from random import randint
 
 # Generate answer
 answer = randint(1, 100)
+print(answer)
 
 # User guess
 username = input("What's your name? ")

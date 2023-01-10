@@ -1,14 +1,16 @@
 from random import randint
 
+
 # Generate answer
-answer = randint(1, 100)
+answer = randint(1,100)
+
+# Print answer for debugging
 print(answer)
 
-# User guess
-username = input("What's your name? ")
-print(f"Hello, {username}!")
-
-guess = input(f"{username}, Guess the number(1-100)!")
-print(f"Your guess is {guess}, right?")
-
+# User interaction
+username = input("Hi there, What is your name?")
+print(f"Hi,{username}! Please be my guest!!")
+# Get and print User's guess
+guess = int(input(f"So {username}, Guess the number(1-100): "))
+print(f'Well choice {username}~~ You picked {guess}!!')
 
